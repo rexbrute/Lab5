@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,suma=0;
+    do
+    {
+        scanf("%d",&n);
+        suma= suma+n;
+    }
+    while(n);
+    do
+    {
+        scanf("%d",&n);
+        suma= suma+n;
+    }
+    while (n);
+    printf("Suma:%d\n", suma);
+    return 0;
+}
