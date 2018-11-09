@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ char c;
+ scanf("%c",&c);
+ if (c>='a' && c<='z')
+ printf("Caracterul este o litera");
+ else if (c>='A' && c<='Z')
+ printf("Caracterul este o litera");
+ else
+ printf("Caracterul introdus nu este o litera");
+    return 0;
+}
